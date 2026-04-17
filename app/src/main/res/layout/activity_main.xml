@@ -54,7 +54,7 @@
         app:endIconMode="clear_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/microfeatures_container">
+        app:layout_constraintTop_toBottomOf="@id/welcome_text">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/destination_input"
@@ -74,7 +74,7 @@
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/welcome_text">
+        app:layout_constraintTop_toBottomOf="@id/destination_layout">
 
         <TextView
             android:id="@+id/microfeatures_label"
@@ -90,6 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:contentDescription="@string/popular_destinations_title"
             android:text="@string/popular_destinations_title" />
 
         <com.google.android.material.button.MaterialButton
@@ -98,6 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:contentDescription="@string/travel_checklist_title"
             android:text="@string/travel_checklist_title" />
 
         <com.google.android.material.button.MaterialButton
@@ -106,6 +108,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
+            android:contentDescription="@string/stay_tips_title"
             android:text="@string/stay_tips_title" />
     </LinearLayout>
 
@@ -120,7 +123,7 @@
         android:textColor="@color/text_secondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/destination_layout" />
+        app:layout_constraintTop_toBottomOf="@id/microfeatures_container" />
 
     <com.google.android.material.slider.RangeSlider
         android:id="@+id/price_range_slider"
