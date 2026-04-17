@@ -37,4 +37,8 @@
     <string name="hotel_card_price">%1$s / night</string>
     <string name="hotel_card_rating">%1$.1f ★</string>
     <string name="default_guest_count">1</string>
+    <string name="microfeatures_label">Quick Microfeatures</string>
+    <string name="popular_destinations_title">Popular Destinations</string>
+    <string name="travel_checklist_title">Travel Checklist</string>
+    <string name="stay_tips_title">Stay Tips</string>
 </resources>

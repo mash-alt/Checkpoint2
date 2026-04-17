@@ -1,0 +1,25 @@
+<resources>
+    <string-array name="popular_destinations">
+        <item>Baguio City</item>
+        <item>Tagaytay</item>
+        <item>Boracay</item>
+        <item>Palawan</item>
+        <item>Cebu</item>
+    </string-array>
+
+    <string-array name="travel_checklist_items">
+        <item>Government ID / Passport</item>
+        <item>Printed or digital booking confirmation</item>
+        <item>Travel toiletries</item>
+        <item>Weather-appropriate clothes</item>
+        <item>Portable charger</item>
+    </string-array>
+
+    <string-array name="stay_tips_items">
+        <item>Check in early when possible</item>
+        <item>Keep valuables in the room safe</item>
+        <item>Review cancellation policy before booking</item>
+        <item>Confirm airport transfer details in advance</item>
+        <item>Save emergency contacts on your phone</item>
+    </string-array>
+</resources>

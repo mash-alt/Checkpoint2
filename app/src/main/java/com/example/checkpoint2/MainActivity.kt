@@ -71,6 +71,15 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupActions() {
         binding.welcomeText.text = getString(R.string.welcome_user, sessionManager.getUsername())
+        binding.popularDestinationsButton.setOnClickListener {
+            startActivity(Intent(this, PopularDestinationsActivity::class.java))
+        }
+        binding.travelChecklistButton.setOnClickListener {
+            startActivity(Intent(this, TravelChecklistActivity::class.java))
+        }
+        binding.stayTipsButton.setOnClickListener {
+            startActivity(Intent(this, StayTipsActivity::class.java))
+        }
         binding.logoutButton.setOnClickListener {
             sessionManager.logout()
             navigateToLogin()
