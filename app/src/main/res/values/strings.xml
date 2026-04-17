@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">StayGo</string>
+    <string name="hotel_discovery">Find Hotels</string>
+    <string name="search_destination">Destination or hotel name</string>
+    <string name="price_range">Price range (PHP)</string>
+    <string name="minimum_rating">Minimum rating</string>
+    <string name="hotels_found">%1$d hotels found</string>
+    <string name="hotel_image">Hotel image</string>
+    <string name="welcome_user">Welcome, %1$s</string>
+    <string name="logout">Logout</string>
+
+    <string name="login_title">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue booking your next stay.</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="error_required">Required</string>
+
+    <string name="rating_value">Rating: %1$.1f/5</string>
+    <string name="price_per_night">%1$s per night</string>
+    <string name="amenities">Amenities</string>
+    <string name="description">Description</string>
+    <string name="book_now">Book Now</string>
+
+    <string name="booking_title">Booking Form</string>
+    <string name="check_in">Check-in</string>
+    <string name="check_out">Check-out</string>
+    <string name="date_not_set">Date not set</string>
+    <string name="guests">Guests</string>
+    <string name="total_price_value">Total: %1$s (%2$d night/s)</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="invalid_booking">Invalid booking</string>
+    <string name="invalid_booking_message">Select valid check-in/check-out dates and guest count.</string>
+    <string name="booking_confirmed">Booking Confirmed</string>
+    <string name="booking_confirmation_message">Hotel: %1$s\nCheck-in: %2$s\nCheck-out: %3$s\nGuests: %4$d\nTotal: %5$s</string>
+    <string name="ok">OK</string>
+    <string name="hotel_card_price">%1$s / night</string>
+    <string name="hotel_card_rating">%1$.1f ★</string>
+    <string name="default_guest_count">1</string>
+</resources>

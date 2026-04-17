@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "name": "Cebu Grand Palace Hotel",
+    "location": "Cebu City",
+    "pricePerNight": 3200,
+    "rating": 4.3,
+    "image": "hotel1",
+    "description": "A modern hotel in the heart of Cebu with easy access to malls and nightlife.",
+    "amenities": ["Free WiFi", "Pool", "Gym", "Breakfast Included"]
+  },
+  {
+    "id": 2,
+    "name": "Seaside Paradise Resort",
+    "location": "Mactan Island",
+    "pricePerNight": 5400,
+    "rating": 4.7,
+    "image": "hotel2",
+    "description": "Beachfront resort with ocean views, curated dining, and private cabanas.",
+    "amenities": ["Beach Access", "Spa", "Airport Shuttle", "Bar"]
+  },
+  {
+    "id": 3,
+    "name": "Budget Stay Inn",
+    "location": "Cebu City",
+    "pricePerNight": 1200,
+    "rating": 3.8,
+    "image": "hotel3",
+    "description": "Affordable and comfortable stay for travelers on a budget.",
+    "amenities": ["Free WiFi", "Air Conditioning"]
+  },
+  {
+    "id": 4,
+    "name": "Highland View Suites",
+    "location": "Busay",
+    "pricePerNight": 4100,
+    "rating": 4.4,
+    "image": "hotel4",
+    "description": "A peaceful hillside property with city skyline views and quiet rooms.",
+    "amenities": ["Parking", "Restaurant", "View Deck", "Free WiFi"]
+  },
+  {
+    "id": 5,
+    "name": "Ayala City Luxe Hotel",
+    "location": "Cebu Business Park",
+    "pricePerNight": 4700,
+    "rating": 4.6,
+    "image": "hotel5",
+    "description": "Upscale city hotel close to shopping centers and corporate offices.",
+    "amenities": ["Rooftop Pool", "Gym", "Breakfast Included", "Concierge"]
+  },
+  {
+    "id": 6,
+    "name": "Harbor Breeze Hotel",
+    "location": "SM Seaside District",
+    "pricePerNight": 3600,
+    "rating": 4.1,
+    "image": "hotel6",
+    "description": "Stylish rooms near the bay area with sunset-friendly dining spaces.",
+    "amenities": ["Free WiFi", "Restaurant", "Shuttle Service"]
+  },
+  {
+    "id": 7,
+    "name": "Mactan Family Lodge",
+    "location": "Lapu-Lapu City",
+    "pricePerNight": 2800,
+    "rating": 4.0,
+    "image": "hotel7",
+    "description": "Family-focused lodge with larger rooms and kid-friendly facilities.",
+    "amenities": ["Family Rooms", "Play Area", "Free Breakfast"]
+  },
+  {
+    "id": 8,
+    "name": "Central Capsule Hotel",
+    "location": "Fuente Osmena",
+    "pricePerNight": 1500,
+    "rating": 3.9,
+    "image": "hotel8",
+    "description": "Minimalist capsule-inspired hotel built for short city stopovers.",
+    "amenities": ["24/7 Front Desk", "WiFi", "Shared Lounge"]
+  },
+  {
+    "id": 9,
+    "name": "Ocean Crest Boutique",
+    "location": "Cordova",
+    "pricePerNight": 5200,
+    "rating": 4.8,
+    "image": "hotel9",
+    "description": "Boutique oceanfront stay with curated interiors and private balconies.",
+    "amenities": ["Infinity Pool", "Spa", "Bar", "Room Service"]
+  },
+  {
+    "id": 10,
+    "name": "Metro Park Hotel",
+    "location": "IT Park",
+    "pricePerNight": 3000,
+    "rating": 4.2,
+    "image": "hotel10",
+    "description": "Business traveler favorite with modern coworking and fast check-in.",
+    "amenities": ["Coworking Space", "Fast WiFi", "Cafe", "Laundry"]
+  }
+]
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="brand_blue">#1E5EFF</color>
+    <color name="brand_blue_dark">#1242C9</color>
+    <color name="screen_background">#F4F7FF</color>
+    <color name="text_primary">#16203B</color>
+    <color name="text_secondary">#5D6785</color>
+    <color name="card_stroke">#D9E3FF</color>
+    <color name="price_accent">#0C57F8</color>
+</resources>

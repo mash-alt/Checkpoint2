@@ -1,0 +1,41 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# IDE
+.idea/
+*.iws
+*.ipr
+
+# Gradle / build outputs
+.gradle/
+**/build/
+
+# Local machine / temp
+.tmp/
+*.log
+
+# Android Studio captures/native intermediates
+/captures/
+.externalNativeBuild/
+.cxx/
+
+# Local workspace caches that should never be versioned
+/caches/
+/daemon/
+/jdks/
+/kotlin-profile/
+/native/
+/wrapper/
