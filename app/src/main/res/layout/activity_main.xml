@@ -64,6 +64,54 @@
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <LinearLayout
+        android:id="@+id/microfeatures_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/destination_layout">
+
+        <TextView
+            android:id="@+id/microfeatures_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/microfeatures_label"
+            android:textColor="@color/text_primary"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/popular_destinations_button"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/popular_destinations_title"
+            android:text="@string/popular_destinations_title" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/travel_checklist_button"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/travel_checklist_title"
+            android:text="@string/travel_checklist_title" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/stay_tips_button"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:contentDescription="@string/stay_tips_title"
+            android:text="@string/stay_tips_title" />
+    </LinearLayout>
+
     <TextView
         android:id="@+id/price_label"
         android:layout_width="0dp"
@@ -75,7 +123,7 @@
         android:textColor="@color/text_secondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/destination_layout" />
+        app:layout_constraintTop_toBottomOf="@id/microfeatures_container" />
 
     <com.google.android.material.slider.RangeSlider
         android:id="@+id/price_range_slider"
